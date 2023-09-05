@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "elytra-entity-event",
+  "version": "${version}",
+
+  "name": "ElytraEntityEvent API",
+  "description": "Fabric API but the backport of the Elytra API to 1.16.5",
+  "authors": [
+    "FabricMC",
+    "DelofJ"
+  ],
+  "contact": {
+    "repo": "https://github.com/DelofJ/ElytraEntityEventAPI"
+  },
+
+  "license": "",
+  "icon": "assets/elytra-entity-event/icon.png",
+  "environment": "*",
+  "mixins": [
+    "entity-elytra-event.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "~1.16.5"
+  }
+}
